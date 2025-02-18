@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.post {
+  border: 1px solid black;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}
